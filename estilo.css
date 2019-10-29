@@ -1,11 +1,13 @@
 @import url("mclibre-pie.css");
 
+/*(QUITAR COMENTARIOS PARA VER APLICADO CÓDIGO)*/
 
+/*
 p{
     color: red;
     background-color: grey;
 }
-
+*/
 h1{
     color: yellow;
     background-color: blue;
@@ -13,15 +15,67 @@ h1{
 
 
 
-
+/*
 p {
     border-top: red 3px solid;
     border-bottom: red 3px solid;
   }
+*/
+
 
 /*La jerarquía de CSS es específica, destaca una etiqueta concreta respecto a una general*/
 
 /*FONDO DE PÁGINA*/
 
+
+    /*FONDO DE PÁGINA (CON UNA IMG)*/
+
     /*body { background: url("img/fuego-1f525.svg"); }*/
-    body{background: url("img/tartan.png");}
+    /*body{background: url("img/tartan.png");}*/
+    /*body{
+        background: url("img/caballo.svg");
+        background-color: yellow;
+    }
+    */
+
+    /*FONDO DE PÁGINA (COLOR, APLICADO A TODO EL HTML)*/
+
+    html{
+        background-color: gold;
+    }
+
+    /*IMÁGENES FLOTANTES*/
+    
+    /*
+    img{
+        float:left;
+    }
+    */
+
+    img.izquierda{
+        float:left;
+    }
+
+    img.derecha{
+        float:right;
+    }
+
+
+    /*CLEAR = REPASAR*/
+
+    /*IMAGEN CENTRADA*/
+
+    p.centrado{
+        text-align: center;
+    }
+
+
+    /*BOX MODEL*/
+    p.texto{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin: 3px;
+        padding: 3px;
+        border: black 2px solid;
+    }
