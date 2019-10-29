@@ -1,3 +1,27 @@
+@import url("mclibre-pie.css");
+
+
 p{
     color: red;
+    background-color: grey;
 }
+
+h1{
+    color: yellow;
+    background-color: blue;
+}
+
+
+
+
+p {
+    border-top: red 3px solid;
+    border-bottom: red 3px solid;
+  }
+
+/*La jerarquía de CSS es específica, destaca una etiqueta concreta respecto a una general*/
+
+/*FONDO DE PÁGINA*/
+
+    /*body { background: url("img/fuego-1f525.svg"); }*/
+    body{background: url("img/tartan.png");}
